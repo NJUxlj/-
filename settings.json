@@ -1,0 +1,168 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\g++.exe",
+    "C_Cpp.default.cppStandard": "c++14",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.includePath": [
+        "C:\\MinGW\\lib"
+    ],
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+    "explorer.confirmDelete": false,
+    "files.autoGuessEncoding": true,
+    "code-runner.runInTerminal": true,
+    "terminal.explorerKind": "external",
+
+    "editor.fontSize": 18,
+    "terminal.integrated.fontFamily": "Lucida Console",
+    "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    //"terminal.integrated.automationShell.windows": "C:\\Windows\\System32\\cmd.exe",
+    
+
+
+    "editor.tokenColorCustomizations": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment.line",
+                        "comment.block",
+                        "comment.block.documentation",
+                        "comment",
+                    ],
+                    "settings": {
+                        "fontStyle": "",
+                        "foreground": "#88ce72f1"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.character.escape", /* 换行符 */
+                        "constant.numeric",          /* 数字 */
+                        "emphasis"
+                    ],
+                    "settings": {
+                        "foreground": "#ff7ed4"
+                    }
+                },
+                { /* 预处理“#if”等的括号；宏定义的参数括号及代码段 */
+                    "scope": "meta.preprocessor",
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                },
+                { /* 函数定义与声明的参数以及括号；宏定义代码段的参数及括号 */
+                    "scope": "meta.function",
+                    "settings": {
+                        "foreground": "#ffffff",
+                    }
+                },
+                { /* 函数实体的所有大括号和变量，包括宏定义的代码段 */
+                    "scope": "meta.block",
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                },
+                {
+                    "scope": "support.function",       /* 库函数 */
+                    "settings": {
+                        "foreground": "#39ffef"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.type",             /* 结构、联合名 */
+                    ],
+                    "settings": {
+                        "fontStyle": "",
+                        "foreground": "#11e6b7"
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.function",
+                        "meta.function-call",           /* 函数调用的括号*/
+                    ],
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                },
+                {
+                    "name": "KEYWORD",
+                    "scope": "keyword.operator",        /* 运算符 */
+                    "settings": {
+                        "foreground": "#c9ccca"
+                    }
+                },
+                {
+                    "name": "KEYWORD",
+                    "scope": "keyword.operator.logical", /* 逻辑运算符 */
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                },
+
+                //关键字
+                {
+                    "name": "KEYWORD",
+                    "scope": [
+                        "keyword.control",    /* 预编译条件判断，关键字 */
+                        "storage.modifier",   /* static、const等 */
+                        "storage.type"        /* void，变量类型限定符 */
+                    ],
+                    "settings": {
+                        "foreground": "#779df0"
+                    }
+                },
+                {
+                    "scope": [
+                        "punctuation.terminator", /* 分号（代码终止符） */
+                        "punctuation.separator"   /* 逗号 */
+                    ],
+                    "settings": {
+                        "foreground": "#ffb9b9"
+                    }
+                },
+                
+                //形参颜色
+                {
+                    "name": "Parameter",
+                    "scope": "variable.parameter",
+                    "settings": {
+                        //"fontStyle": "underline"
+                        "foreground": "#b7b8b1"
+                    }
+                },
+
+                //变量颜色
+                {
+                    "name": "Variable",
+                    "scope": [
+                        "support.variable",
+                        "variable"
+                    ],
+                    "settings": {
+                        "foreground": "#9af3ff"
+                    }
+                },
+
+                //函数
+                {
+                    "name": "Function",
+                    "scope": [
+                        "entity.name.function",
+                        "support.function"
+                    ],
+                    "settings": {
+                        "foreground": "#f1f096"
+                    }
+                },
+            ],
+    },
+    "window.zoomLevel": 1,
+    "files.encoding": "gb2312",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+
+}
